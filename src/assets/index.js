@@ -8,18 +8,19 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
+import postgresql from "./tech/postgresql.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
+import nodejs from "./tech/nodejs.svg";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import bootstrap from "./tech/bootstrap.png";
+import python from "./tech/python.png";
+import api from "./tech/api.png";
+import express from "./tech/express.png";
+import lightroom from "./tech/lightroom.png";
 
 import meta from "./company/meta.png";
 import EF from "./company/english-first.svg";
@@ -40,7 +41,7 @@ export {
   menu,
   close,
   css,
-  docker,
+  postgresql,
   figma,
   git,
   html,
@@ -48,10 +49,10 @@ export {
   mongodb,
   nodejs,
   reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
+  bootstrap,
+  python,
+  api,
+  express,
   meta,
   EF,
   generalAssembly,
@@ -59,4 +60,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  lightroom
 };

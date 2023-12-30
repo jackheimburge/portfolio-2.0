@@ -4,17 +4,17 @@ import {
     creator,
     web,
     javascript,
-    typescript,
+    api,
     html,
     css,
     reactjs,
-    redux,
-    tailwind,
+    bootstrap,
+    python,
     nodejs,
     mongodb,
     git,
     figma,
-    docker,
+    postgresql,
     meta,
     generalAssembly,
     sanyaSchool,
@@ -22,7 +22,8 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
+    express,
+    lightroom
 } from "../assets";
 
 const navLinks = [
@@ -61,6 +62,26 @@ const services = [
 
 const technologies = [
     {
+        name: "JavaScript",
+        icon: javascript,
+    },
+    {
+        name: "React JS",
+        icon: reactjs,
+    },
+    {
+        name: "Node JS",
+        icon: nodejs,
+    },
+    {
+        name: "Express",
+        icon: express,
+    },
+    {
+        name: "Python",
+        icon: python,
+    },
+    {
         name: "HTML 5",
         icon: html,
     },
@@ -69,48 +90,32 @@ const technologies = [
         icon: css,
     },
     {
-        name: "JavaScript",
-        icon: javascript,
-    },
-    {
-        name: "TypeScript",
-        icon: typescript,
-    },
-    {
-        name: "React JS",
-        icon: reactjs,
-    },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
-    {
-        name: "Tailwind CSS",
-        icon: tailwind,
-    },
-    {
-        name: "Node JS",
-        icon: nodejs,
-    },
-    {
         name: "MongoDB",
         icon: mongodb,
     },
     {
-        name: "Three JS",
-        icon: threejs,
+        name: "PostgreSQL",
+        icon: postgresql,
     },
     {
         name: "git",
         icon: git,
     },
     {
+        name: "Bootstrap",
+        icon: bootstrap,
+    },
+    {
         name: "figma",
         icon: figma,
     },
     {
-        name: "docker",
-        icon: docker,
+        name: "Adobe Lightroom",
+        icon: lightroom,
+    },
+    {
+        name: "Rest API",
+        icon: api,
     },
 ];
 

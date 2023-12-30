@@ -119,6 +119,13 @@
   transform: translateZ(0);
 }
 
+.loading-text {
+  font-size: 20px;
+  color: #F1F1F1;
+  font-weight: 800;
+  margin-top: 40;
+}
+
 @keyframes mulShdSpin {
 
   0%,

@@ -289,7 +289,7 @@ const projects = [
         live_link: 'https://github.com/jackheimburge/card-hub'
     },
     {
-        name: "Blackjack Web Browser Game",
+        name: "Blackjack Web App Game",
         description:
             "Based off the casino gambling favorite, Blackjack. Play against the dealer! How big can you make your wallet?",
         tags: [

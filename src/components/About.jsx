@@ -38,8 +38,7 @@ const About = () => {
       <motion.p
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         variants={fadeIn("", "", 0.1, 1)}>
-        I'm a Detail-oriented and gritty Software Engineer who enjoys building user-friendly web applications that solve real world problems
-        and brings innovation and resilience to contribute to meaningful projects.
+        I'm a Detail-oriented and gritty Software Engineer who enjoys building user-friendly web applications that solve real world problems. I bring my innovation and creativity to contribute to meaningful projects.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

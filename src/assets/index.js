@@ -27,9 +27,11 @@ import EF from "./company/english-first.svg";
 import generalAssembly from "./company/GA.png";
 import sanyaSchool from "./company/sanyaSchool.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import tide from "./tide.png";
+import apptrak from "./apptrak.png";
+import dm from "./dm.png";
+import card from "./card.png";
+import blackjack from "./blackjack.png";
 
 export {
   logo,
@@ -57,8 +59,10 @@ export {
   EF,
   generalAssembly,
   sanyaSchool,
-  carrent,
-  jobit,
-  tripguide,
-  lightroom
+  tide,
+  apptrak,
+  lightroom,
+  dm,
+  card,
+  blackjack
 };

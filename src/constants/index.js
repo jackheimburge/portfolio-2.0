@@ -15,15 +15,16 @@ import {
     git,
     figma,
     postgresql,
-    meta,
     generalAssembly,
     sanyaSchool,
     EF,
-    carrent,
-    jobit,
-    tripguide,
+    tide,
+    apptrak,
+    dm,
     express,
-    lightroom
+    lightroom,
+    card,
+    blackjack
 } from "../assets";
 
 const navLinks = [
@@ -200,12 +201,12 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Tide Seeker",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Web-based platform that allows users to search, view, and manage their favorite surf spots from around the world.",
         tags: [
             {
-                name: "react",
+                name: "node.js",
                 color: "blue-text-gradient",
             },
             {
@@ -213,17 +214,18 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "express",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: tide,
+        source_code_link: "https://github.com/jackheimburge/tide-seeker",
+        live_link: 'https://tide-seeker-1959079ff47b.herokuapp.com/'
     },
     {
-        name: "Job IT",
+        name: "App Trak",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Seemlisly manage and track all of your job applications in one central hub. View analytics on your job search to view progress and make changes to your strategy.",
         tags: [
             {
                 name: "react",
@@ -234,33 +236,79 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "heroku",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: apptrak,
+        source_code_link: "https://github.com/jackheimburge/job-trak",
+        live_link: 'https://app-trak-2-2c62e0337a96.herokuapp.com/'
     },
     {
-        name: "Trip Guide",
+        name: "DM Solutions",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "A car dealership management tool for managing and updating inventory and tracking sales data.",
         tags: [
             {
-                name: "nextjs",
+                name: "Python",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "Django",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "postgresql",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: dm,
+        source_code_link: "https://github.com/jackheimburge/dm-solutions",
+        live_link: 'https://dm-solutions-6a34df6ef1ad.herokuapp.com/'
+    },
+    {
+        name: "The Card Hub",
+        description:
+            "A one stop shop web based e-commerce app for buying and selling your favorite sports cards.",
+        tags: [
+            {
+                name: "react.js",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "aws",
+                color: "green-text-gradient",
+            },
+            {
+                name: "mongodb",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: card,
+        source_code_link: "https://github.com/jackheimburge/card-hub",
+        live_link: 'https://github.com/jackheimburge/card-hub'
+    },
+    {
+        name: "Blackjack Web Browser Game",
+        description:
+            "Based off the casino gambling favorite, Blackjack. Play against the dealer! How big can you make your wallet?",
+        tags: [
+            {
+                name: "javascript",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "DOM",
+                color: "green-text-gradient",
+            },
+            {
+                name: "gaming",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: blackjack,
+        source_code_link: "https://github.com/jackheimburge/blackjack",
+        live_link: 'https://jackheimburge.github.io/blackjack/'
     },
 ];
 

@@ -8,7 +8,7 @@ const Earth = () => {
   return (
     <mesh>
       <hemisphereLight
-        intensity={1.5}
+        intensity={3.0}
         groundColor="black"
       />
       <pointLight intensity={1} />

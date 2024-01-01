@@ -13,7 +13,7 @@ const Navbar = () => {
       className={`${styles.paddingX} 
       w-full flex-items-center py-5 fixed top-0 z-20 bg-primary`}
     >
-      <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
+      <div className="w-full flex justify-between items-center">
         <Link
           to='/'
           className="flex items-center gap-2"
@@ -27,19 +27,21 @@ const Navbar = () => {
             className="w-9 h-9 object-contain"
           />
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-10">
-          {navLinks.map((link, index) => (
-            <li key={index}>
-              <a href={`#${link.id}`}
-                className={`${active === link.title ? 'text-white' : 'text-secondary'} hover:text-white text-[18px]
+        <div>
+          <ul className="list-none hidden sm:flex flex-row gap-10 px-5">
+            {navLinks.map((link, index) => (
+              <li key={index}>
+                <a href={`#${link.id}`}
+                  className={`${active === link.title ? 'text-white' : 'text-secondary'} hover:text-white text-[18px]
                 font-medium cursor-pointer`}
-                onClick={() => setActive(link.title)}
-                key={link.id}>
-                {link.title}
-              </a>
-            </li>
-          ))}
-        </ul>
+                  onClick={() => setActive(link.title)}
+                  key={link.id}>
+                  {link.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}

@@ -225,7 +225,7 @@ const projects = [
     {
         name: "App Trak",
         description:
-            "Seemlisly manage and track all of your job applications in one central hub. View analytics on your job search to view progress and make changes to your strategy.",
+            "Seamlessly manage and track all of your job applications in one central hub. View analytics on your job search to view progress and make changes to your strategy.",
         tags: [
             {
                 name: "react",

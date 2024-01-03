@@ -24,7 +24,8 @@ import {
     express,
     lightroom,
     card,
-    blackjack
+    blackjack,
+    bootcampr
 } from "../assets";
 
 const navLinks = [
@@ -121,19 +122,19 @@ const technologies = [
 ];
 
 const experiences = [
-    // {
-    //     title: "Full stack Developer",
-    //     company_name: "Meta",
-    //     icon: meta,
-    //     iconBg: "#E6DEDD",
-    //     date: "Jan 2023 - Present",
-    //     points: [
-    //         "Developing and maintaining web applications using React.js and other related technologies.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Participating in code reviews and providing constructive feedback to other developers.",
-    //     ],
-    // },
+    {
+        title: "Software Engineer",
+        company_name: "Bootcampr",
+        icon: bootcampr,
+        iconBg: "#FFF",
+        date: "December 2023 - Present",
+        points: [
+            "Develop and maintain frontend components using technologies such as React.js and TypeScript, ensuring a responsive and user-friendly interface",
+            "Maintain backend routing and database operations using Node.js and MongoDB, optimizing performance and scalability.",
+            "Collaborate with cross-functional teams including designers, product managers, and other developers to create high-quality components that meet Figma specifications.",
+            "Maintain version control using Git and GitHub, actively participating in code reviews and providing constructive feedback to enhance team collaboration.",
+        ],
+    },
     {
         title: "Software Engineering Fellow",
         company_name: "General Assembly",

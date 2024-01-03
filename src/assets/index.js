@@ -34,6 +34,7 @@ import apptrak from "./apptrak.png";
 import dm from "./dm.png";
 import card from "./card.png";
 import blackjack from "./blackjack.png";
+import bootcampr from "./company/bootcampr.jpeg";
 
 export {
   logo,
@@ -68,5 +69,6 @@ export {
   card,
   blackjack,
   linkedin,
-  instagram
+  instagram,
+  bootcampr
 };

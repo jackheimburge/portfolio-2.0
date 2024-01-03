@@ -243,7 +243,7 @@ const projects = [
         ],
         image: apptrak,
         source_code_link: "https://github.com/jackheimburge/job-trak",
-        live_link: 'https://app-trak-2-2c62e0337a96.herokuapp.com/'
+        live_link: 'https://app-traak-354121237766.herokuapp.com/'
     },
     {
         name: "DM Solutions",
